@@ -313,6 +313,29 @@ img,
 svg {
   margin: 1em;
   vertical-align: middle;
+  position: relative;
+  max-width: 80%;
+  height: auto;
+}
+
+.hide-in-phone {
+  display: none
+}
+
+@media only screen and (min-width:720px) {
+  .hide-in-phone {
+    display: block;
+  }
+}
+
+.show-in-phone {
+  display: none
+}
+
+@media only screen and (max-width:720px) {
+  .show-in-phone {
+    display: block;
+  }
 }
 
 table {
@@ -11909,13 +11932,14 @@ p.lead {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 3rem;
+  width: 3rem;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
-  margin-right: 1.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 .social-icons .social-icon:last-child {
