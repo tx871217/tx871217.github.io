@@ -311,11 +311,15 @@ figure {
 
 img,
 svg {
-  margin: 1em;
   vertical-align: middle;
   position: relative;
-  max-width: 80%;
-  height: auto;
+  /* max-width: 80%;
+  height: auto; */
+}
+
+.institute-icon {
+  margin-right: 1.5em;
+  margin-bottom: 1em;
 }
 
 .hide-in-phone {
@@ -11932,8 +11936,8 @@ p.lead {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3rem;
-  width: 3rem;
+  height: 3.5rem;
+  width: 3.5rem;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
