@@ -11938,13 +11938,13 @@ p.lead {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3rem;
-  width: 3rem;
+  height: 2.8rem;
+  width: 2.8rem;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
-  margin-right: 0.7rem;
+  margin-right: 0.5rem;
   margin-bottom: 1rem;
 }
 
