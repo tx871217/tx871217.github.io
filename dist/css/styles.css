@@ -241,7 +241,7 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #e07116;
   text-decoration: underline;
 }
 
@@ -8322,9 +8322,13 @@ fieldset:disabled .btn {
   word-break: break-word !important;
 }
 
+.high_light {
+  color: rgb(255, 0, 0) !important;
+}
+
 /* rtl:end:remove */
 .text-primary {
-  color: #bd5d38 !important;
+  color: #f0860d !important;
 }
 
 .text-secondary {
@@ -8380,7 +8384,7 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #ec7c12 !important;
 }
 
 .bg-secondary {
